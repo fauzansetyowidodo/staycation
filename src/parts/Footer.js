@@ -34,7 +34,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-auto mr-5">
+          <div className="col-2 mr-5">
             <h5 className="mt-2">Explore Us</h5>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -54,7 +54,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-auto mr-5">
+          <div className="col-2 mr-5">
             <h5 className="mt-2">Connect Us</h5>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
