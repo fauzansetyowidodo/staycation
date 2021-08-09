@@ -1,5 +1,6 @@
 import LandingPage from "pages/LandingPage";
 import ExampleIN from "pages/ExampleIN";
+import ExampleID from "pages/ExampleID";
 
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route path="/example-in" component={ExampleIN} />
+          <Route path="/example-id" component={ExampleID} />
         </Switch>
       </Router>
     </div>
